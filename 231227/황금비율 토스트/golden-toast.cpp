@@ -27,10 +27,15 @@ int main(void) {
 
 		switch (c) {
 			case 'L':
+				if (it == l.begin())
+					break;
+
 				it--;
 				break;
 
 			case 'R':
+				if (it == l.end())
+					break;
 				it++;
 				break;
 
