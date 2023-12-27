@@ -40,6 +40,8 @@ int main(void) {
 				break;
 
 			case 'D':
+				if (it == l.end())
+					break;
 				it = l.erase(it);
 				break;
 
