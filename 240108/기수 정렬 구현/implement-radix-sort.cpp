@@ -14,6 +14,9 @@ int digitNum(int x, int a) {
 vector<int> l[10];
 
 int main() {
+
+    cin.tie(0);
+    ios::sync_with_stdio(0);
     int n;
 
     cin >> n;
