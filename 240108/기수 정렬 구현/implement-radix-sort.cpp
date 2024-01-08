@@ -4,6 +4,7 @@ int n;
 int arr[100005];
 int set[10][100005];
 
+using namespace std;
 
 int main() {
     int n;
